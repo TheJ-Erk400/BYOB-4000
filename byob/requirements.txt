@@ -18,3 +18,4 @@ pycryptodomex==3.8.1;python_version<'3'
 opencv-python==4.8.1.78;python_version<'3'
 pyHook==1.5.1;sys.platform=='win32'
 pypiwin32==223;sys.platform=='win32'
+urllib3>=1.26.18 # not directly required, pinned by Snyk to avoid a vulnerability
